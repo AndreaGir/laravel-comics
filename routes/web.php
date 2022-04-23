@@ -14,5 +14,41 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $nameHeader = [
+        [
+            "name" => "CHARACTER"
+        ],
+        [
+            "name" => "COMICS"
+        ],
+        [
+            "name" => "MOVIES"
+        ],
+        [
+            "name" => "TV"
+        ],
+        [
+            "name" => "GAMES"
+        ],
+        [
+            "name" => "COLLECTIBES"
+        ],
+        [
+            "name" => "VIDEOS"
+        ],
+        [
+            "name" => "FANS"
+        ],
+        [
+            "name" => "NEWS"
+        ],
+        [
+            "name" => "SHOP"
+        ],
+    ];
+
+    return view('welcome', [
+        "nameHeader" => $nameHeader
+    ]);
 });
