@@ -18,9 +18,9 @@
                     <div class="indice">
 
                         @foreach ($nameHeader as $value)
-
-                            <ul>
-                                <li>
+                             
+                            <ul class="indiceul">
+                                <li class="indiceli">
                                     {{ $value ['name'] }}
                                 </li>
                             </ul>

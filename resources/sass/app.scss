@@ -18,11 +18,19 @@
     align-items: center;
     padding-bottom: 50px;
 }
-.indice  > ul{
+.indice{
+    display: flex;
+}
+.indiceul{
     display: flex;
     gap: 25px;
 }
-.indice > ul li{
+.indiceul {
+    
+    font-size: 13px;
+    list-style: none;
+}
+.indiceli{
     font-size: 13px;
     list-style: none;
 }
