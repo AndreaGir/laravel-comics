@@ -12,6 +12,10 @@
     @include('header')
 
     @include('main')
+
+    @include('maindue')
+
+    @include('footer')
     
 </body>
 </html>

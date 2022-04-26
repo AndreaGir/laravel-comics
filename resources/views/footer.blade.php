@@ -1,13 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-</head>
-<body>
-    
-</body>
-</html>
+<div>
+    <div class="footer">
+        <div class="footercentro">
+            <div class="signup">
+                SIGN-UP NOW!
+            </div>
+            <div class="follow">
+                FOLLOW US
+                <div class="icona">
+                    <img src="{{asset ('img/footer-facebook.png')}}" alt="">
+                </div>
+                <div class="icona">
+                    <img src="{{asset ('img/footer-twitter.png')}}" alt="">
+                </div>
+                <div class="icona">
+                    <img src="{{asset ('img/footer-youtube.png')}}" alt="">
+                </div>
+                <div class="icona">
+                    <img src="{{asset ('img/footer-pinterest.png')}}" alt="">
+                </div>
+                <div class="icona">
+                    <img src="{{asset ('img/footer-periscope.png')}}" alt="">
+                </div>
+                
+            </div>
+        </div>
+
+     </div>
+
+</div>
